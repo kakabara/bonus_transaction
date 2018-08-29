@@ -1,7 +1,7 @@
 from flask import request, jsonify, make_response, abort
 
-from app.avia_transaction import app
-from app.controllers import UserController, TransactionController
+from avia_transaction import app
+from controllers import UserController, TransactionController
 
 
 @app.after_request

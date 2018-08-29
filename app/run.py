@@ -1,4 +1,4 @@
-from app.avia_transaction import app
+from avia_transaction import app
 
 
 if __name__ == '__main__':

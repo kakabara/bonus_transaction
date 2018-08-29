@@ -1,4 +1,4 @@
 from pymodm import connection
+from config import config
 
-
-mongo_connect = connection.connect('mongodb://developer:Develop!024@ds237072.mlab.com:37072/develop')
+mongo_connect = connection.connect('mongodb://{user}:{password}@{host}:{port}/{db_name}'.format(**config['mongodb']))
