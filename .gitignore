@@ -1,0 +1,9 @@
+.env
+.idea
+*.pyc
+venv
+config.yml
+*/logs/*
+logs/*
+gunicorn.py
+/server/logs/*
