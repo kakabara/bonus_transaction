@@ -1,7 +1,7 @@
 from pymodm import errors, fields
 
-from app.models import User
-from app.view import View
+from views import View
+from models import User
 
 
 class UserController:

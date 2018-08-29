@@ -1,7 +1,7 @@
 from pymodm import errors
 
-from app.view import View
-from app.models import Transaction
+from views import View
+from models import Transaction
 
 per_page = 20
 
